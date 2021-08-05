@@ -606,7 +606,8 @@ By default, all `SecureString` values are displayed as cipher\-text\. To decrypt
 
 ## Create a multi\-line parameter \(AWS CLI\)<a name="param-create-cli-multiline"></a>
 
-You can use the AWS CLI to create a parameter with line breaks\. Use line breaks to break up the text in longer parameter values for better legibility or, for example, update multi\-paragraph parameter content for a web page\. You can include the content in a JSON file and use the `--cli-input-json` option, using line break characters like `/n`, as shown in the following example\.
+You can use the AWS CLI to create a parameter with line breaks\. Use line breaks to break up the text in longer parameter values for better legibility or, for example, update multi\-paragraph parameter content for a web page\. You can include the content in a JSON file and use the `--cli-input-json` option, using line break characters like ``\n``, as shown in the following example
+.
 
 1. Install and configure the AWS Command Line Interface \(AWS CLI\), if you haven't already\.
 
